@@ -18,3 +18,5 @@ def perform_operation(num1, num2, operation):
     else:
         # Unknown operation
         return "Error: Invalid operation"
+result = perform_operation(5, 6, "subtract")
+print(result)
